@@ -22,5 +22,6 @@ expo start
 
 ### TODO
 - [ ] Improve this documentation
-- [ ] Check the warning 'each child in a list should have a unique "key" prop' after use the example of Nesting navigators 
+- [ ] Check the warning 'each child in a list should have a unique "key" prop' after use the example of Nesting navigators
+- [ ] Loading
 - [ ] Deepening the concepts and applying
