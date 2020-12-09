@@ -24,8 +24,8 @@ const AuthProvider: React.FC = ({children}) => {
 
   useEffect(() => {
     async function loadStorageData() {
-      const storagedUser = "{\"name\":\"admin\",\"email\":\"admin\"}";//await SecureStore.getItemAsync('KSERP_USER');
-      const storagedToken = '1234';//await SecureStore.getItemAsync('KSERP_TOKEN');
+      const storagedUser = "{\"name\":\"admin\",\"email\":\"admin\"}";//await SecureStore.getItemAsync('_USER');
+      const storagedToken = '1234';//await SecureStore.getItemAsync('_TOKEN');
 
       if (storagedUser && storagedToken) {
         setUser(JSON.parse(storagedUser));
@@ -43,8 +43,8 @@ const AuthProvider: React.FC = ({children}) => {
     //setUser(response.user);
     //api.defaults.headers.Authorization = `Baerer ${response.token}`;
 
-    //await SecureStore.setItemAsync('KSERP_USER', JSON.stringify(response.user));
-    //await SecureStore.setItemAsync('KSERP_TOKEN', response.token);
+    //await SecureStore.setItemAsync('_USER', JSON.stringify(response.user));
+    //await SecureStore.setItemAsync('_TOKEN', response.token);
 
     console.log('signIn method');
     setUser({
