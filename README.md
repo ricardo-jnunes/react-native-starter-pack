@@ -2,7 +2,7 @@
 React Native with Themed structure, Deep linking, using native Context API for Login, Signed area with bottom-tabs and Logout flow.
 
 ### Prerequisites
-Be sure you have React Native and Expo installed.
+Be sure you have Node 12 LTS or greater installed, you can use npm to install React Native and Expo and all projects dependencies.
 
 ### Installation
 
